@@ -1,6 +1,6 @@
-# Xamarin-android-ScanDocument
+# xamarin-android-ScanDocument
 
-### Xamarin Dyanmsoft Camera SDK
+### Xamarin Dynamsoft Camera SDK
 Version 2.0
 
 The repository aims to help developers build **Android** barcode apps with Xamarin Dynamsoft Camera SDK.
