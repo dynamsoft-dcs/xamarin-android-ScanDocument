@@ -1,0 +1,21 @@
+﻿<metadata>
+  <attr path="/api/package[@name='org.litepal.crud']/class[@name='AssociationsAnalyzer']" name="visibility">public</attr>
+  <attr path="/api/package[@name='org.litepal.crud']/class[@name='DataHandler']" name="visibility">public</attr>
+  <attr path="/api/package[@name='org.litepal.tablemanager']/class[@name='Creator']" name="visibility">public</attr>
+  <attr path="/api/package[@name='org.litepal.tablemanager']/class[@name='Creator']/method[@name='createOrUpgradeTable']" name="visibility">protected</attr>
+  <remove-node path="/api/package[@name='org.litepal.tablemanager']/class[@name='AssociationCreator']/method[@name='createOrUpgradeTable']" />
+
+  <attr path="/api/package[@name='com.dynamsoft.camerasdk.view']/interface[@name='DcsImageEditorViewListener']/method[@name='onCancelTapped']" name="argsType">CancelTappedEvent1Args</attr>
+  <attr path="/api/package[@name='com.dynamsoft.camerasdk.view']/interface[@name='DcsImageEditorViewListener']/method[@name='onOkTapped']" name="argsType">OkTappedEvent1Args</attr>
+  <attr path="/api/package[@name='com.dynamsoft.camerasdk.view']/interface[@name='DcsVideoViewListener']/method[@name='onCancelTapped' and count(parameter)=1 and parameter[1][@type='com.dynamsoft.camerasdk.view.DcsVideoView']]" name="argsType">CancelTappedEvent2Args</attr>
+  <attr path="/api/package[@name='com.dynamsoft.camerasdk.view']/class[@name='DcsView']" name="obfuscated">false</attr>
+
+  <remove-node path="/api/package[@name='com.dynamsoft.camerasdk.utils']/class[@name='BGALoadPhotoTask']" />
+  <remove-node path="/api/package[@name='org.greenrobot.eventbus']/class[@name='HandlerPoster']" />
+
+  <remove-node path="/api/package[starts-with(@name, 'okio')]" />
+  <remove-node path="/api/package[starts-with(@name, 'okhttp3')]" />
+  <remove-node path="/api/package[starts-with(@name, 'org.greenrobot.eventbus')]" />
+  <remove-node path="/api/package[starts-with(@name, 'com.bumptech.glide')]" />
+  
+</metadata>

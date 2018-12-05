@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScanDocument", "ScanDocument\ScanDocument.csproj", "{EBB43904-6338-4A6B-9150-4AE358F70844}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamsoftCamera", "DynamsoftCamera\DynamsoftCamera.csproj", "{A6BA65DC-362C-4FBE-9EC3-6F9EC9FE05FA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EBB43904-6338-4A6B-9150-4AE358F70844}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBB43904-6338-4A6B-9150-4AE358F70844}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBB43904-6338-4A6B-9150-4AE358F70844}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{EBB43904-6338-4A6B-9150-4AE358F70844}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBB43904-6338-4A6B-9150-4AE358F70844}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBB43904-6338-4A6B-9150-4AE358F70844}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{A6BA65DC-362C-4FBE-9EC3-6F9EC9FE05FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6BA65DC-362C-4FBE-9EC3-6F9EC9FE05FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6BA65DC-362C-4FBE-9EC3-6F9EC9FE05FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6BA65DC-362C-4FBE-9EC3-6F9EC9FE05FA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {34D4E8CD-0AE8-49FB-B26F-5A35669898D9}
+	EndGlobalSection
+EndGlobal
